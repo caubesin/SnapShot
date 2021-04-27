@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../font/fontawesome-5-pro-master/webfonts/fa-regular-400.woff2);
+}
+@import url(https://fonts.googleapis.com/css2?family=Bangers&display=swap);
+.button {
+    position: relative;
+    width: 8vw;
+    height: calc(10px + 2vw);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 2vw;
+    font-size: calc(2px + 1vw);
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Bangers', cursive;
+}
+
+
+

@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Bangers&display=swap);
+
+.form-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-container h1{
+    position: relative;
+    font-family: 'Pacifico', cursive;
+    font-size: 4vw;
+}
+
+.form-main {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 3vw;
+}
+
+.form-main input {
+    position: relative;
+    width: 28%;
+    height: 3vw;
+    font-size: 1vw;
+    padding : 0 1vw;
+    outline: none;
+    z-index: 9;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.form-main input:focus {
+    border: 2px solid rgb(75, 123, 255);
+}
+
+.form-main button {
+    width: 8%;
+    height: 3vw;
+    font-size: 1vw;
+    transform: translateX(-1px);
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    transition: hover 0.6s;
+}
+
+
+.form-main button:disabled {
+    border: 1px solid gray;
+    background-color: gray;
+    cursor: default;
+}
+
+.form-main button:not([disabled]):hover { 
+    font-style: italic;
+    background-color: rgb(37, 37, 37);
+}
+
+.nav {
+    position: relative;
+    width: 45%;
+    height: auto;
+}
+
+.nav ul {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.nav ul li {
+    width: 17%;
+    font-size: calc(3px + 1vw);
+    height: calc(4px + 2vw);
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1vw;
+    cursor: pointer;
+    font-family: 'Bangers', cursive;
+}
+

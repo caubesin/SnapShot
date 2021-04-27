@@ -1,0 +1,6 @@
+export const SEARCH = "SEARCH";
+export const SEARCH_SUCCESS = "SEARCH_SUCCESS";
+export const SEARCH_FAIL = "SEARCH_FAIL";
+export const SEARCH_MORE = 'SEARCH_MORE';
+export const SEARCH_MORE_SUCCESS = 'SEARCH_MORE_SUCCESS';
+export const SEARCH_MORE_FAIL = 'SEARCH_MORE_FAIL'
