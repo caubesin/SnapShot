@@ -51,11 +51,7 @@ function ShowImg({stateImg, tags, page, showMore, noResult, isLoading, isNew, er
                 <div className = 'show-img'>
                     <h2>{tags === null ? "" : tags + ' Picture'}</h2>
                     <ul>
-                        {stateImg.length === 0 ? '' : stateImg[currentPage-1].map((img) => {
-                            return (
-                                <List handleClick={handleClick} img ={img}></List>
-                            )
-                        })}
+                        {stateImg.length === 0 ? '' :  <List handleClick={handleClick} img ={stateImg[currentPage-1]}></List>}
                     </ul>
                     {(page >= 1 && stateImg.length !== 0) ?
                         <div className='nav-btn'>
